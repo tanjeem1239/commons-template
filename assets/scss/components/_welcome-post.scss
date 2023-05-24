@@ -1,0 +1,102 @@
+.welcome-section {
+  display: flex;
+  background-color: #001844;
+  margin: 0px;
+  color: #fff;
+  padding-left: 13.75rem;
+  padding-right: 13.75rem;
+  @media (max-width: 1199.98px) {
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+  }
+  @media (max-width: 991.98px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 575.98px) {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .welcome-section-left {
+    padding: 95px 0px 95px 0px;
+    @media (max-width: 991.98px) {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+  .welcome-section-left h1 {
+    font-size: 19px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 400;
+  }
+  .welcome-section-right {
+    padding: 95px 0px 95px 0px;
+
+    @media (max-width: 991.98px) {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+  .welcome-section-left p {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 18px;
+    padding: 10px 100px 10px 0px;
+    letter-spacing: 0.5px;
+    @media (max-width: 991.98px) {
+      padding-right: 0px;
+    }
+    @media (max-width: 575.98px) {
+      padding-right: 0px;
+    }
+  }
+  .vl {
+    border-left: 1px solid rgb(206, 206, 206);
+    opacity: 0.3;
+  }
+  .welcome-section-right p {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 18px;
+    padding: 10px 0px 10px 100px;
+    letter-spacing: 0.5px;
+    @media (max-width: 991.98px) {
+      padding-left: 0px;
+    }
+    @media (max-width: 575.98px) {
+      padding-left: 0px;
+    }
+  }
+  .welcome-section-right h1 {
+    padding-left: 100px;
+    font-size: 19px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 400;
+    @media (max-width: 991.98px) {
+      padding-left: 0px;
+    }
+    @media (max-width: 575.98px) {
+      padding-left: 0px;
+    }
+  }
+  .welcome-section-right button {
+    margin-left: 100px;
+    @media (max-width: 991.98px) {
+      margin-left: 0px;
+    }
+    @media (max-width: 575.98px) {
+      margin-left: 0px;
+    }
+  }
+}

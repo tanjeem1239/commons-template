@@ -1,0 +1,115 @@
+.research-container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  @media (max-width: 991.98px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .research-section {
+    display: flex;
+    padding-left: 13.75rem;
+    padding-right: 13.75rem;
+    @media (max-width: 1199.98px) {
+      padding-left: 5.75rem;
+      padding-right: 5.75rem;
+    }
+    @media (max-width: 991.98px) {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (max-width: 575.98px) {
+      padding-left: 1.75rem;
+      padding-right: 1.75rem;
+    }
+
+    .research-section h4 {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0px;
+    }
+    .research-section-left {
+      padding-top: 95px;
+      @media (max-width: 991.98px) {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+    }
+    .research-section-left h1 {
+      font-size: 25px;
+      margin-right: 50px;
+      font-weight: lighter;
+    }
+    .research-section-left p {
+      font-size: 14px;
+      margin-right: 50px;
+    }
+    .research-section-right {
+      display: flex;
+      align-items: center;
+    }
+    .research-section-right h1 {
+      font-size: 25px;
+      margin-left: 50px;
+      font-weight: lighter;
+    }
+    .research-section-right p {
+      font-size: 14px;
+      margin-left: 50px;
+    }
+    .research-section-right img {
+      max-width: 100%;
+      height: max-content;
+      object-fit: contain;
+      @media (max-width: 991.98px) {
+        padding-top: 1rem;
+      }
+    }
+    button {
+      background-color: #001844;
+      color: #fff;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 8px;
+    }
+
+    .research-section-left.altered h1 {
+      margin-right: 0px;
+      margin-left: 50px;
+      @media (max-width: 991.98px) {
+        margin-left: 0px;
+      }
+      @media (max-width: 575.98px) {
+        margin-left: 0px;
+      }
+    }
+    .research-section-left.altered h4 {
+      margin-left: 50px;
+      @media (max-width: 991.98px) {
+        margin-left: 0px;
+      }
+      @media (max-width: 575.98px) {
+        margin-left: 0px;
+      }
+    }
+    .research-section-left.altered p {
+      margin-left: 50px;
+      @media (max-width: 991.98px) {
+        margin-left: 0px;
+      }
+      @media (max-width: 575.98px) {
+        margin-left: 0px;
+      }
+    }
+    .research-section-left.altered button {
+      margin-left: 50px;
+      @media (max-width: 991.98px) {
+        margin-left: 0px;
+      }
+      @media (max-width: 575.98px) {
+        margin-left: 0px;
+      }
+    }
+  }
+}
