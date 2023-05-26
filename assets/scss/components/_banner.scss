@@ -1,0 +1,25 @@
+.banner-container{
+    margin-left: 13.75rem;
+    margin-right: 13.75rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background: url(/assets/img/banner-01.png) no-repeat;
+    background-size: contain;
+    height: 400px;
+    color: #fff;
+    padding: 6rem 3rem;
+    h1{
+        font-weight: bold;
+    }
+    p{
+        width: 50%;
+    }
+    button{
+        background: #fff;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 12px 50px;
+        border-radius: 5px;
+    }
+}
