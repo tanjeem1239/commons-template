@@ -15,8 +15,8 @@ nav {
     flex-direction: column;
   }
   @media (max-width: 575.98px) {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 .header-logo {
@@ -52,4 +52,118 @@ nav {
   font-weight: bold;
   padding: 8px 45px;
   border-radius: 10px;
+}
+
+.modal{
+  // left: 0 !important;
+}
+// .modal-header{
+//   border: none !important;
+// }
+// .modal-content{
+//   height: 100vh;
+// }
+// .modal-dialog {
+//   // margin: 0rem !important;
+//   margin-right: 0 !important;
+//     margin-top: 0 !important;
+//     display: flex !important;
+//     align-items: end !important;
+//     justify-content: end !important;
+// }
+// .modal-body{
+//   color: #0f1a43;
+//   padding: 0rem !important;
+// }
+// .nav-menu-items{
+//   display: flex;
+//   flex-direction: column;
+//   font-size: 30px;
+//   // line-height: 55px;
+//   padding-left: 0rem !important;
+//   font-weight: lighter;
+//   gap: 15px;
+//   cursor: pointer;
+// }
+// .nav-menu-items li{
+//   margin: 0rem;
+//   padding: 0rem;
+// }
+// .nav-menu-items li:hover{
+//   font-weight: normal;
+// }
+
+// .nav-menu-items li:hover ul {
+//   display: block;
+// }
+// .nav-menu-left{
+//   background-color: #fff;
+// }
+// .nav-menu-items .nav-menu-sub-items {
+//   display:none;
+//   position: absolute;
+//   top: 0;
+//   left: 100%;
+//   width: 100%;
+//   height: 100vh;
+//   background-color: #ebeaea;
+// }
+// .nav-menu-items li {
+//   position: relative;
+// }
+.modal-header {
+  border: none !important;
+}
+
+.modal-content {
+  height: 100vh;
+}
+
+.modal-dialog {
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  display: flex !important;
+  align-items: end !important;
+  justify-content: end !important;
+}
+
+.modal-body {
+  color: #0f1a43;
+  padding: 0rem !important;
+}
+
+.nav-menu-container {
+  display: flex;
+  gap: 15px;
+}
+.nav-menu-left {
+  background-color: #fff;
+}
+.nav-menu-items {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding-left: 0rem !important;
+  font-weight: lighter;
+  gap: 15px;
+  cursor: pointer;
+  padding-top: 5rem;
+}
+
+.nav-menu-items li {
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+}
+
+.nav-menu-items li:hover {
+  font-weight: normal;
+  border-right:3px solid #0f1a43;
+}
+
+.nav-menu-right{
+  background-color: #f7f7f7;
+}
+.nav-menu-sub-items{
+  font-weight: 500;
 }

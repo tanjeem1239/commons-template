@@ -4,6 +4,14 @@
   padding-left: 13.75rem;
   padding-right: 13.75rem;
   padding-top: 4rem;
+  @media (max-width: 1199.98px) {
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+  }
+  @media (max-width: 575.98px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .area-focus h1 {
@@ -60,6 +68,9 @@
   padding: 40px;
   height: 70vh;
   background-color: white;
+  @media (max-width: 575.98px) {
+    padding: 18px;
+  }
 }
 .tab-content p {
   font-size: 14px;
@@ -79,7 +90,13 @@
 .area-focus .details p:last-child {
   margin-bottom: 0;
 }
+.tab-button-container{
 
+  @media (max-width: 575.98px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container .btn-1 {
   padding: 10px 40px;
   color: white;
@@ -90,6 +107,7 @@
   text-decoration: none;
   text-align: center;
   background-color: #001844;
+
 }
 
 .container .btn-2 {

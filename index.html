@@ -18,27 +18,95 @@
     <nav>
       <div class="header-left">
         <div class="header-logo">
-          YOUR <br />
+          YOUR
           LOGO
         </div>
-        <div>
-          <ul class="nav-items">
-            <li>Company</li>
-            <li>Products</li>
-            <li>Research</li>
-            <li>Stories</li>
-            <li>Events</li>
-          </ul>
+      </div>
+      <div class="d-flex gap-3">
+        <div class="header-info">
+          <button>Login</button>
+        </div>
+        <div class="header-info">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Menu</button>
         </div>
       </div>
-      <div class="header-info">
-        <button>Login</button>
+      <!-- Modal -->
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog nav-menu">
+          <div class="modal-content nav-menu-content">
+            <div class="modal-body d-flex flex-row">
+              <div class="nav-menu-left col-6 text-center">
+                <ul class="nav-menu-items ">
+                  <li class="col-6" data-target="#subitems-1">Company</li>
+                  <li class="col-6" data-target="#subitems-2">Products</li>
+                  <li class="col-6" data-target="#subitems-3">Research</li>
+                  <li class="col-6" data-target="#subitems-4">Stories</li>
+                  <li class="col-6" data-target="#subitems-5">Events</li>
+                  <li class="col-6" data-target="#subitems-6">Contact</li>
+                </ul>
+              </div>
+              <div class="nav-menu-right col-6">
+                <div class="d-flex justify-content-end p-3">
+                  <button type="button" class="btn-close mb-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+               
+                <div class="sub-container">
+                  <div class="nav-menu-sub-items" id="subitems-1">
+                    <ul>
+                      <li>Company 1</li>
+                      <li>Company 2</li>
+                      <li>Company 3</li>
+                    </ul>
+                  </div>
+                  <div class="nav-menu-sub-items" id="subitems-2">
+                    <ul>
+                      <li>Products 1</li>
+                      <li>Products 2</li>
+                      <li>Products 3</li>
+                    </ul>
+                  </div>
+                  <div class="nav-menu-sub-items" id="subitems-3">
+                    <ul>
+                      <li>Research 1</li>
+                      <li>Research 2</li>
+                      <li>Research 3</li>
+                    </ul>
+                  </div>
+                  <div class="nav-menu-sub-items" id="subitems-4">
+                    <ul>
+                      <li>Stories 1</li>
+                      <li>Stories 2</li>
+                      <li>Stories 3</li>
+                    </ul>
+                  </div>
+                  <div class="nav-menu-sub-items" id="subitems-5">
+                    <ul>
+                      <li>Events 1</li>
+                      <li>Events 2</li>
+                      <li>Events 3</li>
+                    </ul>
+                  </div>
+                  <div class="nav-menu-sub-items" id="subitems-6">
+                    <ul>
+                      <li>Contact 1</li>
+                      <li>Contact 2</li>
+                      <li>Contact 3</li>
+                    </ul>
+                  </div>
+                </div>
+                
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
 
-  <div class="template-wrapper container-fluid p-0 overflow-hidden">
-    <section class="hero row">
+  <div class="template-wrapper overflow-hidden p-0">
+    <div class="hero row">
       <div class="hero-left col-lg-6 col-md-12">
         <h3>Hey there!</h3>
         <h1>
@@ -57,31 +125,55 @@
         </div>
       </div>
       <div class="hero-right col-lg-6 col-md-12"></div>
-    </section>
+    </div>
 
-    <section class="welcome-section">
-      <div class="welcome-section-left col-lg-6 col-md-12">
-        <h1>Welcome to XYZ</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto maxime
-          totam nisi error quis amet in, deleniti, vero, ullam voluptas
-          quibusdam autem. Laborum dolore dolorem quas esse. Similique,
-          repellendus corrupti!
-        </p>
-        <button class="hero-button-first">Learn more</button>
+    <div class="welcome-section">
+      <span class="vl"> </span>
+      <div class="welcome-section-items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
+        <div>
+          <h1>Welcome to XYZ</h1>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo. Morbi a ipsum erat. Curabitur ornare erat et ullamcorper ullamcorper.
+          </p>
+        </div>
+        <div>
+          <button class="learn-more-button-border">Learn more</button>
+        </div>
+        
       </div>
       <span class="vl"> </span>
-      <div class="welcome-section-right col-lg-6 col-md-12">
-        <h1>Pipeline</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto maxime
-          totam nisi error quis amet in, deleniti, vero, ullam voluptas
-          quibusdam autem. Laborum dolore dolorem quas esse. Similique,
-          repellendus corrupti!
-        </p>
-        <button class="hero-button-first">Learn more</button>
+      <div class="welcome-section-items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
+        <div>
+          <h1>Pipeline</h1>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consecteadipiscing elit. Quisque ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo. Morbi a ipsum erat…
+          </p>
+        </div>
+       <div>
+        <button class="learn-more-button-border">Learn more</button>
+       </div>
+       
       </div>
-    </section>
+      <span class="vl"> </span>
+      <div class="welcome-section-items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
+        <div>
+          <h1>People and Culture</h1>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo. Morbi a ipsum erat. Curabitur ornare erat et ullamcorper ullamcorper. 
+          </p>
+        </div>
+        <div>
+          <button class="learn-more-button-border">Learn more</button>
+        </div>
+       
+      </div>
+    </div>
 
     <div class="research-container">
       <section class="research-section">
@@ -171,6 +263,109 @@
     </div>
 
   </div>
+  <!-- ======= Slider Section ======= -->
+  <div class="slider-wrapper">
+
+    <div class="slider-section d-flex">
+
+      <div class="explore-our-stories">
+        <h1>Explore our <br>
+          stories</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Quisque ullamcorper dui eget leo facilisis facilisis. Nam
+          aliquet eu ligula a commodo. Morbi a ipsum erat.
+        </p>
+        <a href="#">View our stories</a> <span>&#129122;</span>
+      </div>
+
+      <div class="main-slides">
+        <div class="slider-button">
+          <p>
+            <span id="left-btn" class="left-btn">&#129120;</span>
+            <span id="right-btn" class="right-btn">&#129122;</span>
+          </p>
+        </div>
+        <div class="slider-container">
+          <div class="product">
+            <div>
+              <img class="slider-img" src="./assets/img/Picture 1.png" alt="">
+            </div>
+            <div class="detail">
+              <h5>Feature Title</h5>
+              <p>October 11, 2022</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+              <a href="#">Read the story</a><span>&#129122</span>
+            </div>
+          </div>
+
+          <div class="product">
+            <div>
+              <img class="slider-img" src="./assets/img/Picture 1.png" alt="">
+            </div>
+            <div class="detail">
+              <h5>Large Feature Title lorem Ipsum is simply dummy
+                text of the printing and typesetting industry.
+                Lorem Ipsum has.</h5>
+              <p>October 11, 2022</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.Lorem Ipsum is simply
+                dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read the story</a><span>&#129122</span>
+            </div>
+          </div>
+
+          <div class="product">
+            <div>
+              <img class="slider-img" src="./assets/img/Picture 1.png" alt="">
+            </div>
+            <div class="detail">
+              <h5>Feature Title</h5>
+              <p>October 11, 2022</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.</p>
+              <a href="#">Read the story</a><span>&#129122</span>
+            </div>
+          </div>
+
+          <div class="product">
+            <div>
+              <img class="slider-img" src="./assets/img/Picture 1.png" alt="">
+            </div>
+            <div class="detail">
+              <h5>Feature Title</h5>
+              <p>October 11, 2022</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+              <a href="#">Read the story</a><span>&#129122</span>
+            </div>
+          </div>
+
+          <div class="product">
+            <div>
+              <img class="slider-img" src="./assets/img/Picture 1.png" alt="">
+            </div>
+            <div class="detail">
+              <h5>Feature Title</h5>
+              <p>October 11, 2022</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+              <a href="#">Read the story</a><span>&#129122</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- =======End of Slider Section ======= -->
   <!-- ======= Banner Section ======= -->
   <div class="banner-container">
     <h1>
@@ -183,9 +378,11 @@
   </div>
   <!-- =======End of Banner Section ======= -->
 
+
+
   <!-- ======= Tab Section ======= -->
   <section id="area-focus" class="area-focus">
-    <div class="container" data-aos="fade-up">
+    <div class="container p-0" data-aos="fade-up">
 
       <div class="section-title">
         <h1>Our areas of focus</h1>
@@ -280,10 +477,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="d-flex gap-4 mt-4">
+                <div class="d-flex gap-4 mt-4 tab-button-container">
                   <button class="btn-1">Learn more</button>
-                  <button class="btn-2 d-flex gap-3 align-items-center">Download the PDF <i
-                      class='bx bx-download'></i></button>
+                  <button class="btn-2">Download the PDF</button>
                 </div>
               </div>
             </div>
@@ -314,7 +510,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show Answer</span>
+                <span class="button-text">Show</span>
               </span>
 
               <span class="icon-minus">
@@ -323,7 +519,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide Answer</span>
+                <span class="button-text-hide">Hide</span>
               </span>
 
             </span>
@@ -345,6 +541,7 @@
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Are you sure this thing is on?
+
             <span class="icon-wrap">
 
               <span class="icon-plus">
@@ -354,7 +551,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show Answer</span>
+                <span class="button-text">Show</span>
               </span>
 
               <span class="icon-minus">
@@ -363,7 +560,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide Answer</span>
+                <span class="button-text-hide">Hide</span>
               </span>
             </span>
 
@@ -394,7 +591,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show Answer</span>
+                <span class="button-text">Show</span>
               </span>
 
               <span class="icon-minus">
@@ -403,7 +600,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide Answer</span>
+                <span class="button-text-hide">Hide</span>
               </span>
             </span>
 
@@ -434,7 +631,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show Answer</span>
+                <span class="button-text">Show</span>
               </span>
 
               <span class="icon-minus">
@@ -443,7 +640,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide Answer</span>
+                <span class="button-text-hide">Hide</span>
               </span>
             </span>
 
@@ -474,7 +671,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show Answer</span>
+                <span class="button-text">Show</span>
               </span>
 
               <span class="icon-minus">
@@ -483,7 +680,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide Answer</span>
+                <span class="button-text-hide">Hide</span>
               </span>
             </span>
 
@@ -542,6 +739,7 @@
       </div>
     </div>
     <div class="bs-footer__bottom-row">
+
       <div class="bs-footer__bottom-row-links">
         <p class="copyright-text m-auto"> &copy; 2023 All Rights Reserved
         </p>
@@ -569,11 +767,15 @@
     </div>
   </div>
 
+  <script type="text/javascript" src="./assets/js/slider.js"></script>
+  <script type="text/javascript" src="./assets/js/nav-menu.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

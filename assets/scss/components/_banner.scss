@@ -8,11 +8,31 @@
     height: 400px;
     color: #fff;
     padding: 6rem 3rem;
+    @media (max-width: 1199.98px) {
+        margin-left: 5.75rem;
+        margin-right: 5.75rem;
+      }
+      @media (max-width: 575.98px) {
+        padding: 2rem 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-size: cover;
+      }
     h1{
         font-weight: bold;
+        @media (max-width: 575.98px) {
+            padding-bottom: 2rem;
+          }
     }
     p{
         width: 50%;
+        @media (max-width: 575.98px) {
+            width: 100%;
+            font-size: 18px;
+            padding-bottom: 2rem;
+          }
     }
     button{
         background: #fff;
