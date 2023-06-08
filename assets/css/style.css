@@ -746,7 +746,7 @@ nav {
 }
 
 .w-48 {
-  width: 48% !important;
+  width: 250% !important;
 }
 
 .nav-link {
@@ -772,6 +772,9 @@ nav {
   border-top: 1px solid transparent !important;
 }
 
+.swiper-wrapper {
+  width: 18% !important;
+}
 .swiper-slide {
   font-size: 18px;
   background: #fff;

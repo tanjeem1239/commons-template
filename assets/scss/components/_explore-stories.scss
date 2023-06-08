@@ -50,7 +50,7 @@
   }
 }
 .w-63{ width: 63% !important;}
-.w-48{ width: 48% !important;}
+.w-48{ width: 250% !important;}
 .nav-link{
   all: unset;
   color: #0F1A43 !important;
@@ -74,7 +74,7 @@
 
 .swiper {
   &-wrapper{
-    // width: 63% !important;
+    width: 18% !important;
   } 
   &-slide {
     font-size: 18px;
