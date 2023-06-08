@@ -749,7 +749,7 @@ nav {
   width: 250% !important;
 }
 
-.nav-link {
+.nav-links {
   all: unset;
   color: #0F1A43 !important;
   font-family: "Open Sans";
@@ -758,11 +758,11 @@ nav {
   line-height: 20px !important;
   padding: 10px 40px !important;
 }
-.nav-link:hover {
+.nav-links:hover {
   border-color: transparent !important;
 }
 
-.nav-tabs .nav-link.active {
+.nav-tabs .nav-links.active {
   border: 1px solid transparent !important;
   border-top: 1px solid transparent !important;
   border-bottom: 2px solid #0F1A43 !important;

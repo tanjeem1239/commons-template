@@ -51,7 +51,7 @@
 }
 .w-63{ width: 63% !important;}
 .w-48{ width: 250% !important;}
-.nav-link{
+.nav-links{
   all: unset;
   color: #0F1A43 !important;
   font-family: "Open Sans";
@@ -63,7 +63,7 @@
     border-color: transparent !important;
   }
 }
-.nav-tabs .nav-link.active {
+.nav-tabs .nav-links.active {
   border: 1px solid transparent !important;
   border-top: 1px solid transparent !important;
   border-bottom: 2px solid #0F1A43 !important;
