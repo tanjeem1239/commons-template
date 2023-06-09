@@ -20,8 +20,10 @@ nav {
   }
 }
 .header-logo {
-  font-weight: bold;
-  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 18px;
+  margin-left: 10px;
 }
 .header-left {
   display: flex;
@@ -46,12 +48,22 @@ nav {
   align-items: center;
 }
 .header-info button {
-  background: #fff;
-  border: none;
+  background: transparent;
+  border: 1px solid #394673;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding: 8px 45px;
-  border-radius: 10px;
+  border-radius: 50px;
+}
+.header-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #394673;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .modal{

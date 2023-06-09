@@ -98,7 +98,11 @@
       }
       
       .button-text {
+        font-size: 14px;
         margin-left: 0.5rem;
+      }
+      .button-text-hide{
+        font-size: 14px;
       }
       
       .accordion-button[aria-expanded="true"] .icon-plus {

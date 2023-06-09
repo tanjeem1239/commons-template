@@ -1,0 +1,24 @@
+{
+  "name": "commons-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "react-icons": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanjeem1239/commons-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanjeem1239/commons-template/issues"
+  },
+  "homepage": "https://github.com/tanjeem1239/commons-template#readme"
+}
