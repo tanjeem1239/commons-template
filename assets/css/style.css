@@ -12404,6 +12404,11 @@ ul {
   display: flex;
   padding-top: 30px;
 }
+@media (max-width: 575.98px) {
+  .hero .hero-button {
+    flex-direction: column;
+  }
+}
 .hero .hero-button-first {
   background: #fff;
   border: none;
