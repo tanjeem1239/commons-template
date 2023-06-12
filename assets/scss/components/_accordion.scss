@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 .bs-accordion {
     .accordion {
        padding-top: 5rem;
@@ -28,7 +29,7 @@
           .accordion-button {
             font-size: rem(18px);
             line-height: 24px;
-            font-weight: bold;
+            // font-weight: bold;
             cursor: pointer;
             height: 4.5rem;
             @media (max-width: 575.98px) {
@@ -126,3 +127,39 @@
       }
   }
   
+
+ .product-accordion .product-item .product-header .product-button{
+  color: #0F1A43;
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  border-bottom: none;
+  padding: 0;
+ }
+
+.card-section .card .card-body .card-title{
+    font-weight: 600;
+}
+
+.card-body a{
+  font-size: 0.75rem;
+  line-break: auto;
+  color: #0F1A43;
+  display: flex;
+
+
+}
+
+.icon-wrap {
+  .icon-plus, .icon-minus{
+    img{
+      width: 60%;
+    }
+  }
+}

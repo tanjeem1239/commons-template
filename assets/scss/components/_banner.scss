@@ -3,7 +3,7 @@
     margin-right: 13.75rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    background: url(/assets/img/banner-01.png) no-repeat;
+    background: url(../../assets/img/banner-01.png) no-repeat;
     background-size: contain;
     height: 400px;
     color: #fff;
@@ -42,4 +42,47 @@
         padding: 12px 50px;
         border-radius: 5px;
     }
+}
+
+.cta-section {
+  height: 352px;
+  background-color: #0F1A43;
+
+	h2 {
+    margin-top: 7rem;
+    padding-left: 8.5rem;
+    border-right: 1px solid rgb(171, 171, 171);
+    height: 152px;
+    position: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 72px;
+  
+
+	}
+  p{
+    margin-top: 7rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+  
+  }
+
+}
+@media screen and (max-width: 768px) {
+	.cta-section {
+		h2 {
+			font-size: 2rem;
+		}
+	}
 }

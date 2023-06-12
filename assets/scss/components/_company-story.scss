@@ -62,3 +62,105 @@
       padding-top: 15px;
     }
   }
+
+  .company-story-product{
+    display: flex;
+    flex-direction: column;
+    padding-left: 13.75rem;
+    align-items: flex-start;
+    color: black;
+    height: auto;
+    .story-detail{
+      .play-btn {
+        width: 94px;
+        height: 94px;
+        border: 4px solid white;
+        border-radius: 50%;
+        justify-content: center;
+        display: block;
+        position: absolute;
+        left: calc(50% - 47px);
+        top: calc(50% - 47px);
+        overflow: hidden;
+    }
+    .play-btn {
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .play-btn::after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 30px solid white;
+      align-content: center;
+      margin-left: 10px;
+    }
+    }
+    @media (max-width: 1199.98px) {
+        padding-left: 5.75rem;
+        padding-right: 5.75rem;
+      }
+      @media (max-width: 991.98px) {
+        display: flex;
+        flex-direction: column;
+      }
+      @media (max-width: 575.98px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+  }
+
+  .company-story-product .story-detail{
+    img{
+      width: auto;
+      height: auto;
+      padding-top: 50px;
+      margin-bottom: 50px;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 15px;
+    }
+  }
+
+  .company-story-product {
+    .content{
+      padding-right: 11.25rem;
+      h6 {
+        color: #0F1A43;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 30px;
+      }
+    
+        h1 {
+          color: #0F1A43;
+          font-family: "Open Sans";
+          font-size: 32px;
+          font-weight: 300;
+          letter-spacing: 0;
+          line-height: 45px;
+        }
+        p {
+          color: #0F1A43;
+          font-family: "Open Sans";
+          font-size: 16px;
+          letter-spacing: 0;
+          line-height: 24px;
+      }
+      .hero-button-third-product{
+        background-color: #001844;
+        color: white;
+        padding: 8px 35px;
+        border-radius: 30px;
+        border: 0;
+        font-weight: 600;
+      }
+    }
+  }
