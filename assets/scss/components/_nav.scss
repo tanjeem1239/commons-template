@@ -18,7 +18,7 @@ nav {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-}
+
 .header-logo {
   font-weight: 500;
   letter-spacing: 5px;
@@ -60,75 +60,26 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   border: 1px solid #394673;
   border-radius: 50px;
   width: 40px;
   height: 40px;
 }
+.header-menu:hover{
+background-color: #f7f7f71a;
+}
 
 .modal{
   // left: 0 !important;
 }
-// .modal-header{
-//   border: none !important;
-// }
-// .modal-content{
-//   height: 100vh;
-// }
-// .modal-dialog {
-//   // margin: 0rem !important;
-//   margin-right: 0 !important;
-//     margin-top: 0 !important;
-//     display: flex !important;
-//     align-items: end !important;
-//     justify-content: end !important;
-// }
-// .modal-body{
-//   color: #0f1a43;
-//   padding: 0rem !important;
-// }
-// .nav-menu-items{
-//   display: flex;
-//   flex-direction: column;
-//   font-size: 30px;
-//   // line-height: 55px;
-//   padding-left: 0rem !important;
-//   font-weight: lighter;
-//   gap: 15px;
-//   cursor: pointer;
-// }
-// .nav-menu-items li{
-//   margin: 0rem;
-//   padding: 0rem;
-// }
-// .nav-menu-items li:hover{
-//   font-weight: normal;
-// }
-
-// .nav-menu-items li:hover ul {
-//   display: block;
-// }
-// .nav-menu-left{
-//   background-color: #fff;
-// }
-// .nav-menu-items .nav-menu-sub-items {
-//   display:none;
-//   position: absolute;
-//   top: 0;
-//   left: 100%;
-//   width: 100%;
-//   height: 100vh;
-//   background-color: #ebeaea;
-// }
-// .nav-menu-items li {
-//   position: relative;
-// }
 .modal-header {
   border: none !important;
 }
 
 .modal-content {
   height: 100vh;
+  min-width: 45vw !important;
 }
 
 .modal-dialog {
@@ -143,6 +94,12 @@ nav {
   color: #0f1a43;
   padding: 0rem !important;
 }
+.btn-close{
+  color: #f7f7f7;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
 
 .nav-menu-container {
   display: flex;
@@ -156,7 +113,7 @@ nav {
   flex-direction: column;
   font-size: 30px;
   padding-left: 0rem !important;
-  font-weight: lighter;
+  font-weight: normal;
   gap: 15px;
   cursor: pointer;
   padding-top: 5rem;
@@ -177,5 +134,7 @@ nav {
   background-color: #f7f7f7;
 }
 .nav-menu-sub-items{
+  padding-left: 20px;
   font-weight: 500;
+}
 }

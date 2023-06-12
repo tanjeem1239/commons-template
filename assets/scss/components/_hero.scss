@@ -20,6 +20,8 @@
   }
   @include media-breakpoint-down(sm) {
     height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .hero-content__wrapper {
@@ -119,7 +121,7 @@
     border: none;
     font-size: 14px;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: 17px 45px;
     border-radius: 50px;
 
     @include media-breakpoint-down(sm) {
@@ -135,7 +137,7 @@
     border: 1px solid #fff;
     font-size: 14px;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: 17px 45px;
     border-radius: 50px;
     margin-left: 20px;
 
@@ -143,6 +145,8 @@
       margin-top: 1rem;
       margin-left: 0;
       width: 100%;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
