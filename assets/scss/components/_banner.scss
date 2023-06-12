@@ -4,10 +4,15 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
     background: url(/assets/img/banner-01.png) no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 400px;
     color: #fff;
     padding: 6rem 3rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     @media (max-width: 1199.98px) {
         margin-left: 5.75rem;
         margin-right: 5.75rem;
@@ -40,6 +45,6 @@
         font-size: 14px;
         font-weight: bold;
         padding: 12px 50px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 }

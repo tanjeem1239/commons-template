@@ -15,6 +15,7 @@
   <header>
     <nav>
       <div class="header-left">
+        <i class="fab fa-drupal fa-lg" style="color: #ffffff; width: 30px; height: 30px;"></i>
         <div class="header-logo">
           YOUR
           LOGO
@@ -24,8 +25,8 @@
         <div class="header-info">
           <button>Login</button>
         </div>
-        <div class="header-info">
-          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Menu</button>
+        <div class="header-menu">
+          <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="bi bi-list"></i>
         </div>
       </div>
       <!-- Modal -->
@@ -103,160 +104,162 @@
     </nav>
   </header>
 
-  <div class="template-wrapper overflow-hidden p-0">
+  <div class="template-wrapper">
 
-    <div class="hero row">
-      <div class="hero-left col-lg-6 col-md-12 p-0">
-        <h3>Hey there!</h3>
-        <h1>
-          This is just a slightly <br />
-          longer title, you see?
-        </h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto maxime
-          totam nisi error quis amet in, deleniti, vero, ullam voluptas
-          quibusdam autem. Laborum dolore dolorem quas esse. Similique,
-          repellendus corrupti!
-        </p>
-        <div class="hero-button">
-          <button class="hero-button-first">Take action</button>
-          <button class="hero-button-second">Play Video</button>
+    <div class="hero row m-0">
+      <div class="col-lg-6 col-md-12 p-0 hero-content__wrapper">
+        <div class="hero-content d-flex flex-column justify-content-center h-100">
+          <h3 class="hero-content__title">Hey there!</h3>
+          <p class="hero-content__subtitle">
+            This is just a slightly <br />
+            longer title, you see?
+          </p>
+          <p class="hero-content__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto maxime
+            totam nisi error quis amet in, deleniti, vero, ullam voluptas
+            quibusdam autem. Laborum dolore dolorem quas esse. Similique,
+            repellendus corrupti!
+          </p>
+          <div class="hero-button">
+            <button class="hero-button-first">Take action</button>
+            <button class="hero-button-second"><i class="bi bi-play-circle-fill"></i>Play Video</button>
+          </div>
         </div>
       </div>
-      <div class="hero-right col-lg-6 col-md-12 p-0"></div>
+      <div class="col-lg-6 col-md-12 p-0 hero-image__wrapper">
+        <div class="hero-image img-fluid h-100"></div>
+      </div>
     </div>
 
     <div class="welcome-section">
-      <span class="vl"> </span>
-      <div class="welcome-section-items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
+      <span class="welcome-section__vl"></span>
+      <div class="welcome-section__items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
         <div>
-          <h1>Welcome to XYZ</h1>
+          <h1 class="welcome-section__title">Welcome to Company</h1>
         </div>
-        <div>
-          <p>
+        <div class="welcome-section__items-sub">
+          <p class="welcome-section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo. Morbi a ipsum erat. Curabitur ornare erat et ullamcorper ullamcorper.
           </p>
         </div>
         <div>
-          <button class="learn-more-button-border">Learn more</button>
+          <button class="welcome-section__button learn-button-outlined">Learn more <i class="bi bi-arrow-right fa-lg"></i></button>
         </div>
-        
       </div>
-      <span class="vl"> </span>
-      <div class="welcome-section-items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
+      <span class="welcome-section__vl"></span>
+      <div class="welcome-section__items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
         <div>
-          <h1>Pipeline</h1>
+          <h1 class="welcome-section__title">Pipeline</h1>
         </div>
-        <div>
-          <p>
+        <div class="welcome-section__items-sub">
+          <p class="welcome-section__text">
             Lorem ipsum dolor sit amet, consecteadipiscing elit. Quisque ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo. Morbi a ipsum erat…
           </p>
         </div>
-       <div>
-        <button class="learn-more-button-border">Learn more</button>
-       </div>
-       
-      </div>
-      <span class="vl"> </span>
-      <div class="welcome-section-items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
         <div>
-          <h1>People and Culture</h1>
+          <button class="welcome-section__button learn-button-outlined">Learn more <i class="bi bi-arrow-right fa-lg"></i></button>
         </div>
+      </div>
+      <span class="welcome-section__vl"></span>
+      <div class="welcome-section__items col-lg-4 col-md-12 d-flex flex-column justify-content-between">
         <div>
-          <p>
+          <h1 class="welcome-section__title">People and Culture</h1>
+        </div>
+        <div class="welcome-section__items-sub">
+          <p class="welcome-section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo. Morbi a ipsum erat. Curabitur ornare erat et ullamcorper ullamcorper. 
           </p>
         </div>
         <div>
-          <button class="learn-more-button-border">Learn more</button>
+          <button class="welcome-section__button learn-button-outlined">Learn more <i class="bi bi-arrow-right fa-lg "></i></button>
         </div>
-       
       </div>
     </div>
-
+    
     <div class="research-container">
       <section class="research-section">
-        <div class="research-section-left col-lg-6 col-md-12">
-          <h4>Welcome to XYZ</h4>
-          <h1>
+        <div class="research-section__left col-lg-6 col-md-12">
+          <h4 class="research-section__title">Welcome to XYZ</h4>
+          <h1 class="research-section__heading">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a
             commodo.
           </h1>
-          <p>
+          <p class="research-section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a
             commodo.
           </p>
-          <button class="">Learn more</button>
+          <button class="research-section__button">Learn more</button>
         </div>
-        <div class="research-section-right col-lg-6 col-md-12">
-          <img src="/assets/img/women-1.png" alt="" />
+        <div class="research-section__right col-lg-6 col-md-12">
+          <img class="research-section__image" src="/assets/img/women-1.png" alt="" />
         </div>
       </section>
       <section class="research-section">
-        <div class="research-section-right col-lg-6 col-md-12">
-          <img src="/assets/img/men-1.png" alt="" />
+        <div class="research-section__right col-lg-6 col-md-12">
+          <img class="research-section__image" src="/assets/img/men-1.png" alt="" />
         </div>
-        <div class="research-section-left altered col-lg-6 col-md-12">
-          <h4>Welcome to XYZ</h4>
-          <h1>
+        <div class="research-section__left altered col-lg-6 col-md-12">
+          <h4 class="research-section__title">Welcome to XYZ</h4>
+          <h1 class="research-section__heading">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a
             commodo.
           </h1>
-          <p>
+          <p class="research-section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a
             commodo.
           </p>
-          <button class="hero-button-first">Learn more</button>
+          <button class="research-section__button hero-button-first">Learn more</button>
         </div>
       </section>
     </div>
-
+    
     <div class="project-info">
-      <div class="project-info-details">
-        <div class="project-info-number">
+      <div class="project-info__details">
+        <div class="project-info__number">
           15
         </div>
-        <div class="project-info-text">
+        <div class="project-info__text">
           Years of <br>
           experience
         </div>
       </div>
-      <div class="project-info-details">
-        <div class="project-info-number">
+      <div class="project-info__details">
+        <div class="project-info__number">
           3k
         </div>
-        <div class="project-info-text">
+        <div class="project-info__text">
           Satisfied clients <br>
           around the world
         </div>
       </div>
-      <div class="project-info-details">
-        <div class="project-info-number">
+      <div class="project-info__details">
+        <div class="project-info__number">
           30
         </div>
-        <div class="project-info-text">
+        <div class="project-info__text">
           Project completed <br>
           in 24 countries
         </div>
       </div>
     </div>
+    
     <div class="company-story">
-      <div class="company-story-details">
-        <div class="company-story-details-main">
+      <div class="company-story__details">
+        <div class="company-story__details-main">
           Successful Stories <br>
           about the company
         </div>
-        <div class="company-story-details-sub">
+        <div class="company-story__details-sub">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           ullamcorper dui eget leo facilisis facilisis. Nam aliquet eu ligula a commodo.
           Morbi a ipsum erat.
         </div>
       </div>
-      <div class="company-story-img">
+      <div class="company-story__img">
         <img src="/assets/img/story-video.png" alt="">
       </div>
     </div>
@@ -822,7 +825,7 @@
       </div>
     </div>
   </div>
-
+  
   <div class="banner-container">
     <h1>
       COVID-19 Treatment Efforts
@@ -931,7 +934,7 @@
                 </div>
                 <div class="d-flex gap-4 mt-4 tab-button-container">
                   <button class="btn-1">Learn more</button>
-                  <button class="btn-2">Download the PDF</button>
+                  <button class="btn-2">Download the PDF <i class="bi bi-download"></i></button>
                 </div>
               </div>
             </div>
@@ -942,6 +945,7 @@
 
     </div>
   </section>
+
 
   <div class="bs-accordion d-flex justify-content-center">
     <div class="accordion accordion-flush col-lg-7 col-md-10 col-xs-8" id="accordionExample">
@@ -962,7 +966,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show</span>
+                <span class="button-text">show answer</span>
               </span>
 
               <span class="icon-minus">
@@ -1003,7 +1007,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show</span>
+                <span class="button-text">show answer</span>
               </span>
 
               <span class="icon-minus">
@@ -1012,7 +1016,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide</span>
+                <span class="button-text-hide">hide answer</span>
               </span>
             </span>
 
@@ -1043,7 +1047,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show</span>
+                <span class="button-text">show answer</span>
               </span>
 
               <span class="icon-minus">
@@ -1052,7 +1056,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide</span>
+                <span class="button-text-hide">hide answer</span>
               </span>
             </span>
 
@@ -1083,7 +1087,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show</span>
+                <span class="button-text">show answer</span>
               </span>
 
               <span class="icon-minus">
@@ -1092,7 +1096,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide</span>
+                <span class="button-text-hide">hide answer</span>
               </span>
             </span>
 
@@ -1123,7 +1127,7 @@
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text">Show</span>
+                <span class="button-text">show answer</span>
               </span>
 
               <span class="icon-minus">
@@ -1132,7 +1136,7 @@
                   class="feather feather-minus">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <span class="button-text-hide">Hide</span>
+                <span class="button-text-hide">hide answer</span>
               </span>
             </span>
 
@@ -1219,6 +1223,8 @@
       </ul>
     </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 
   <script type="text/javascript" src="./assets/js/slider.js"></script>
   <script type="text/javascript" src="./assets/js/nav-menu.js"></script>

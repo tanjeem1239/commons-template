@@ -1,4 +1,4 @@
-// @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 @import './base/variables';
 @import './base/global';
 
@@ -18,3 +18,4 @@
 @import './components/tab'; 
 @import './components/banner'; 
 @import './components/slider'; 
+@import './components/explore-stories'; 

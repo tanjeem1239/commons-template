@@ -1,114 +1,152 @@
 .hero {
-  display: flex;
-  flex-direction: row;
-  height: 768px;
   background: url(/assets/img/hero-bg-02.png) no-repeat;
   background-size: cover;
   padding-left: 13.75rem;
   padding-right: 13.75rem;
-  @media (min-width: 1399.98px) { 
-    height: 668px;
-   }
+  height: 668px;
 
-  @media (max-width: 1199.98px) {
+  @include media-breakpoint-down(xl) {
     background-position: center;
     padding-left: 5.75rem;
     padding-right: 5.75rem;
   }
-  @media (max-width: 991.98px) {
+
+  @include media-breakpoint-down(lg) {
     height: 100vh;
     display: flex;
     flex-direction: row;
-  }
-  @media (max-width: 575.98px) {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
-  .hero-left {
+  @include media-breakpoint-down(sm) {
+    height: auto;
+  }
+
+  .hero-content__wrapper {
+    @include media-breakpoint-down(sm) {
+      margin-top: 30px;
+    }
+  }
+
+  .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    @media (max-width: 1199.98px) {
-      padding-top: 5.25rem;
-    }
-    @media (max-width: 991.98px) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    padding-top: 5.25rem;
+
+    @include media-breakpoint-down(lg)  {
       padding-top: 1.25rem;
-      height: 50%;
+      height: 50vh;
     }
   }
-  .hero-left h3 {
-    margin: 0px;
+
+  .hero-content__title {
+    margin: 0;
   }
-  .hero-left h1 {
+
+  .hero-content__subtitle {
     font-weight: lighter;
     font-size: 45px;
     color: white;
-    margin: 0px;
-    padding: 20px 0px;
-    @media (max-width: 1199.98px) {
+    margin: 0;
+    padding: 20px 0;
+
+    @include media-breakpoint-down(xl) {
       font-size: 35px;
     }
-    @media (max-width: 991.98px) {
+
+    @include media-breakpoint-down(lg) {
       font-size: 25px;
     }
+    @include media-breakpoint-down(sm) {
+      font-size: 35px;
+      font-weight: 100;
+      line-height: 40px;
+    }
   }
-  .hero-left p {
+
+  .hero-content__description {
     font-weight: lighter;
     font-size: 14px;
     color: white;
+    @include media-breakpoint-down(sm) {
+      font-size: 16px;
+      font-weight: 100;
+      line-height: 30px;
+    }
   }
-  .hero-right {
+
+  .hero-image__wrapper {
+    @include media-breakpoint-down(sm) {
+      height: 50vh;
+    }
+  }
+
+  .hero-image {
     background-image: url(/assets/img/hero-right.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: bottom;
     padding-top: 50px;
-    @media (max-width: 1199.98px) {
+
+    @include media-breakpoint-down(xl) {
       background-position: top;
     }
-    @media (max-width: 991.98px) {
-      padding-top: 0px;
-      height: 50%;
+
+    @include media-breakpoint-down(lg) {
+      padding-top: 0;
       background-size: contain;
       background-position: top;
     }
+
+    @include media-breakpoint-down(sm) {
+      // margin-top: 30px;
+    }
   }
+
   .hero-button {
+    display: flex;
     padding-top: 30px;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
   }
+
   .hero-button-first {
     background: #fff;
     border: none;
     font-size: 14px;
     font-weight: bold;
     padding: 12px 45px;
-    border-radius: 8px;
+    border-radius: 50px;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
   }
+
   .hero-button-second {
+    display: flex;
+    gap: 10px;
     background: transparent;
     color: white;
     border: 1px solid #fff;
     font-size: 14px;
     font-weight: bold;
     padding: 12px 45px;
-    border-radius: 8px;
+    border-radius: 50px;
     margin-left: 20px;
-    @media (max-width: 575.98px) {
+
+    @include media-breakpoint-down(sm) {
       margin-top: 1rem;
-      margin-left: 0px;
+      margin-left: 0;
+      width: 100%;
     }
   }
 }
-.hero-button-first {
-  background: #fff;
-  border: none;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 12px 45px;
-  border-radius: 8px;
+.react-icon {
+  font-size: 24px;
+  color: rgb(255, 254, 254);
 }

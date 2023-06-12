@@ -60,13 +60,13 @@ ul{
        cursor: not-allowed;
 }
 // utilities
-.learn-more-button-border{
+.learn-button-outlined{
     background: transparent;
     color: white;
     border: 1px solid #fff;
     font-size: 14px;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: 8px 20px;
     border-radius: 50px;
     @media (max-width: 575.98px) {
       margin-top: 1rem;
