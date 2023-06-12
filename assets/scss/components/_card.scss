@@ -46,56 +46,127 @@
 
 .container{
     margin-top: 4rem;
-    .card-story-link{
-        margin-top: 20px;
-        .h5{
-            font-size: 32px;
+    .card-body-story{
+        padding: 7rem 0rem 9rem 9rem;
+
+        h5{
+            color: #0F1A43;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 30px;
+        }   
+        h6{
+            color: #0F1A43;
+            font-family: "Open Sans";
+            font-size: 14px;
+            letter-spacing: 0;
+            line-height: 24px;
+        } 
+        h3{
+            color: #0F1A43;
+            font-family: "Open Sans";
+            font-size: 26px;
             font-weight: 300;
+            letter-spacing: 0;
+            line-height: 45px;
+        }   
+        p{
+            color: #0F1A43;
+            font-family: "Open Sans";
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        .card-img-play{
+            margin: 10rem;
         }
     }
-    .row{
-        .patients-story{
-            padding: 9rem 0;
+    .card-body-story-patient{
+        padding: 8px 0 0 0;
+        img{
+            margin-left: 10px;
         }
-        .card-story{
-            border: none;
-            .play-btn {
-                width: 94px;
-                height: 94px;
-                border: 4px solid white;
-                border-radius: 50%;
-                justify-content: center;
-                display: block;
-                position: absolute;
-                left: calc(50% - 47px);
-                top: calc(50% - 47px);
-                overflow: hidden;
-            }
-            .play-btn {
-              border-radius: 50%;
-              cursor: pointer;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-            .play-btn::after {
-              content: "";
-              width: 0;
-              height: 0;
-              border-top: 20px solid transparent;
-              border-bottom: 20px solid transparent;
-              border-left: 30px solid white;
-              align-content: center;
-              margin-left: 10px;
-            }
-        }
-        .btn-primary{
-            background-color: #001844;
-            color: #fff;
-            padding: 12px 40px;
-            border-radius: 30px;
-            border: 0;
-            font-weight: 600;
-        }
+
     }
-}
+
+    .card-story{
+                    border: none;
+                    .play-btn {
+                        width: 94px;
+                        height: 94px;
+                        border: 4px solid white;
+                        border-radius: 50%;
+                        justify-content: center;
+                        display: block;
+                        position: absolute;
+                        left: calc(50% - 80px);
+                        top: calc(50% - 60px);
+                        overflow: hidden;
+                    }
+                    .play-btn {
+                      border-radius: 50%;
+                      cursor: pointer;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                    .play-btn::after {
+                      content: "";
+                      width: 0;
+                      height: 0;
+                      border-top: 20px solid transparent;
+                      border-bottom: 20px solid transparent;
+                      border-left: 30px solid white;
+                      align-content: center;
+                      margin-left: 10px;
+                    }
+                    .btn-primary{
+                                    background-color: #001844;
+                                    color: #fff;
+                                    padding: 12px 45px;
+                                    border-radius: 30px;
+                                    border: 0;
+                                    font-weight: 600;
+                                }
+                                
+                }
+                
+                .card-story-link{
+                    padding: 0 3rem;
+                    }
+                    h5{
+                        color: #0F1A43;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: bold;
+                        letter-spacing: 0;
+                        line-height: 20px;
+                    }
+                    h6{
+                        color: #0F1A43;
+                        font-family: "Open Sans";
+                        font-size: 14px;
+                        letter-spacing: 0;
+                        line-height: 24px;
+                    }
+                    p{
+                        color: #0F1A43;
+                        font-family: "Open Sans";
+                        font-size: 28px;
+                        font-weight: 300;
+                        letter-spacing: 0;
+                        line-height: 48px;
+                    }
+                    a{
+                        color: #0F1A43;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: bold;
+                        letter-spacing: 0;
+                        line-height: 20px;
+                    }
+                }
+
