@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -13552,4 +13553,141 @@ nav {
   margin-right: 10px;
   font-size: 12px;
   font-weight: 700;
+}
+
+.explore-stories {
+  padding-left: 13.75rem;
+  padding-top: 5rem;
+}
+.explore-stories-left {
+  height: auto;
+  width: 35% !important;
+  color: #fff;
+  background: #001844;
+  margin: 0 20px 0 0;
+  padding: 60px 40px;
+  position: static;
+  left: 0;
+  transition: 0.5s;
+  z-index: 100;
+}
+.explore-stories-left h1, .explore-stories-left .h1 {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72px;
+}
+.explore-stories-left p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 575.98px) {
+  .explore-stories-left p {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+}
+.explore-stories-left a {
+  color: white;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+@media (max-width: 575.98px) {
+  .explore-stories-left a {
+    font-size: 14px;
+  }
+}
+.w-63 {
+  width: 63% !important;
+}
+
+.w-48 {
+  width: 250% !important;
+}
+
+.nav-links {
+  all: unset;
+  color: #0F1A43 !important;
+  font-family: "Open Sans";
+  font-size: 16px !important;
+  font-weight: bold !important;
+  line-height: 20px !important;
+  padding: 10px 40px !important;
+}
+.nav-links:hover {
+  border-color: transparent !important;
+}
+
+.nav-tabs .nav-links.active {
+  border: 1px solid transparent !important;
+  border-top: 1px solid transparent !important;
+  border-bottom: 2px solid #0F1A43 !important;
+}
+
+.nav-item {
+  border-top: 1px solid transparent !important;
+}
+
+.swiper-wrapper {
+  width: 18% !important;
+}
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide .product {
+  min-width: 44%;
+  height: 90%;
+  background: #fff;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+@media (max-width: 575.98px) {
+  .swiper-slide .product {
+    padding-top: 1rem;
+    min-width: 100%;
+    height: auto;
+    margin-right: 0px;
+  }
+}
+.swiper-slide .product .slider-img {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.swiper-slide .product .detail h5, .swiper-slide .product .detail .h5 {
+  color: #001844;
+  font-size: 14px;
+  font-weight: bold;
+}
+.swiper-slide .product .detail p {
+  color: #001844;
+  font-size: 12px;
+  margin-top: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.swiper-slide .product .detail a {
+  color: #001844;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
