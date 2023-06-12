@@ -29,7 +29,6 @@
           .accordion-button {
             font-size: rem(18px);
             line-height: 24px;
-            // font-weight: bold;
             cursor: pointer;
             height: 4.5rem;
             @media (max-width: 575.98px) {
@@ -91,7 +90,7 @@
     }
     .accordion-button:not(.collapsed) {
         color: #242424 !important;
-        background-color: #d1d4fb3f !important;
+        background-color: #fff !important;
         box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
     }
       .icon-minus {
@@ -128,6 +127,34 @@
   }
   
 
+.nav-accordion{
+  .nav-link-product {
+    border: none !important;
+    position: relative;
+  }
+
+  .nav-link-product::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #0F1A43;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: left;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+
+  .active::after {
+    transform: scaleX(1);
+  }
+  
+}
  .product-accordion .product-item .product-header .product-button{
   color: #0F1A43;
   font-family: "Open Sans";
@@ -147,14 +174,27 @@
     font-weight: 600;
 }
 
-.card-body a{
-  font-size: 0.75rem;
+.card-body{
+  a{
+  font-size: 0.85rem;
   line-break: auto;
   color: #0F1A43;
   img{
-    margin-right: 5px;
+    height: 18px;
+    width: 26.07px;
   }
-
+  }
+  .view{
+    color: #0F1A43;
+    font-family: "Open Sans";
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: right;
+    img{
+      margin-left: 5px;
+    }
+  }
 }
 
 .icon-wrap {
