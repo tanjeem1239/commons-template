@@ -103,21 +103,35 @@
   h5{
   margin-top: 40px;
   margin-bottom: 5rem;
-  font-size: 13px;
-  color: #fff;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
   }
   span{
-    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 22px;
   }
     h4{
-      margin: 0px;
-      color: white;
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 30px;
     }
     h1{
-      font-weight: normal;
-      font-size: 45px;
-      color: white;
-      margin: 0px;
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 56px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 72px;
       padding: 20px 0px;
       @media (max-width: 1199.98px) {
         font-size: 35px;
