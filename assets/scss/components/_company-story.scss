@@ -183,3 +183,27 @@
 
 
   
+// ------ Latest stories ------
+
+.latest-stories{
+  h1{
+    color: #0F1A43;
+    font-family: "Open Sans";
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 76px;
+    margin: 0;
+    padding-left: 14rem;
+  
+  }
+}
+
+.tab-pane-stories{
+  .row{
+    margin-top: 10px;
+  }
+  img{
+    margin-left: 5px;
+  }
+}
