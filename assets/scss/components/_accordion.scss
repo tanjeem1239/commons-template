@@ -23,7 +23,7 @@
         }
        }
       .accordion-item{
-        border-bottom: 3px solid #e7e7e7;
+        border: none;
         .accordion-header {
           margin: 0;
           .accordion-button {
@@ -83,8 +83,7 @@
           }
         }
         .accordion-body{
-            padding-top: 2rem;
-            padding-bottom: 2rem;
+            padding: 0;
         }
       }
     }
@@ -168,15 +167,40 @@
   gap: 70px;
   border-bottom: none;
   padding: 0;
+  @media (max-width: 575.98px) {
+    font-size: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+  }
+  
  }
 
 .card-section .card .card-body .card-title{
     font-weight: 600;
+
 }
+  .custom-card{
+      border-bottom: 3px solid gray;
+      
+    }
+
+    .accordion-item{
+      .card{
+        padding: 10px;
+        border: none;
+        display: flex;
+        justify-content: space-evenly;
+        .custom-card {
+          border-bottom: 1px solid #ccc;
+        }
+      }
+    }
+ 
 
 .card-body{
   a{
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   line-break: auto;
   color: #0F1A43;
   img{

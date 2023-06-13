@@ -121,14 +121,18 @@
       height: auto;
       padding-top: 50px;
       margin-bottom: 50px;
-    }
-    @media (max-width: 575.98px) {
-      padding-top: 15px;
+      @media (max-width: 991.98px) {
+        padding: 0;
+        margin: 0;
+        }
     }
   }
 
   .company-story-product {
     .content{
+      @media (max-width: 991.98px) {
+        padding: 1rem;
+        }
       padding-right: 3rem;
       h6 {
         color: #0F1A43;
@@ -137,6 +141,9 @@
         font-weight: bold;
         letter-spacing: 0;
         line-height: 30px;
+        @media (max-width: 991.98px) {
+          font-size: 1.2rem;
+          }
       }
     
         h1 {
@@ -146,6 +153,10 @@
           font-weight: 300;
           letter-spacing: 0;
           line-height: 45px;
+          @media (max-width: 991.98px) {
+            font-size: 1.5rem;
+            line-height: 1.5;
+            }
         }
         p {
           color: #0F1A43;
@@ -154,6 +165,9 @@
           letter-spacing: 0;
           line-height: 24px;
           font-weight: 400;
+          @media (max-width: 991.98px) {
+            font-size: 1rem;
+            }
       }
       .hero-button-third-product{
         background-color: #001844;
@@ -162,6 +176,7 @@
         border-radius: 30px;
         border: 0;
         font-weight: 600;
+
       }
     }
   }

@@ -131,6 +131,12 @@
   padding-left: 14rem;
   border: none;
   text-decoration: none;
+  @media (max-width: 991.98px) {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.7rem;
+    }
   .nav-tabs-product{
     border-bottom: 2px solid rgb(220,220,220,0.5);
   }

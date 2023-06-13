@@ -11,6 +11,9 @@
         font-weight: 600;
         letter-spacing: 0;
         line-height: 76px;
+        @media (max-width: 991.98px) {
+            font-size: 2rem;
+          }
     }
     .featured-card{
         display: flex;
@@ -22,6 +25,7 @@
     }
     .card{
         border: none;
+        
     }
     .card-body{
         
