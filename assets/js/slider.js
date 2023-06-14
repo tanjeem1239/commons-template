@@ -32,16 +32,16 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
       event.stopPropagation();
   
-      var containerScrollLeft = sliderContainer.scrollLeft;
-      var targetScrollLeft = containerScrollLeft + scrollDistance;
-      var maxScrollLeft = containerScrollWidth - containerWidth;
+      var containerScrollRight = sliderContainer.scrollRight;
+      var targetScrollRight = containerScrollRight + scrollDistance;
+      var targetScrollRight = containerScrollRight - containerDistance;
   
-      if (targetScrollLeft > maxScrollLeft) {
-        targetScrollLeft = maxScrollLeft;
+      if (targetScrollRight > 0) {
+        targetScrollRight = 0;
       }
   
       sliderContainer.scrollTo({
-        left: targetScrollLeft,
+        right: targetScrollRight,
         behavior: 'smooth'
       });
     });
