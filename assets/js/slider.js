@@ -47,6 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
   
+ 
+
+  
     // Prevent the "explore-our-stories" section from moving
     storiesSection.addEventListener('click', function(event) {
       event.stopPropagation();
