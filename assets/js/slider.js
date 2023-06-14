@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         behavior: 'smooth'
       });
     });
+
   
     // Prevent the "explore-our-stories" section from moving
     storiesSection.addEventListener('click', function(event) {
