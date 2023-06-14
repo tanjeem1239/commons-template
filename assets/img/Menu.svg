@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>203CD8A1-88FB-473F-B3DD-32E569F5117A</title>
+    <g id="Version_01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2.1.Common_Template_Menu_v2_VD" transform="translate(-1770, -16)">
+            <g id="Menu" transform="translate(1770, 16)">
+                <rect id="Button-Back" stroke="#394673" x="0.5" y="0.5" width="47" height="47" rx="23.5"></rect>
+                <g id="Group-2" transform="translate(12, 18)" fill="#FFFFFF">
+                    <rect id="Rectangle" x="5" y="0" width="20" height="2" rx="1"></rect>
+                    <rect id="Rectangle" x="0" y="10" width="25" height="2" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
