@@ -1,5 +1,5 @@
 .hero {
-  background: url(/assets/img/hero-bg-02.png) no-repeat;
+  background: url(../../assets/img/hero-bg-02.png) no-repeat;
   background-size: cover;
   padding-left: 13.75rem;
   padding-right: 13.75rem;
@@ -85,8 +85,9 @@
     }
   }
 
+
   .hero-image {
-    background-image: url(/assets/img/hero-right.png);
+    background-image: url(../../assets/img/hero-right.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: content-box;
