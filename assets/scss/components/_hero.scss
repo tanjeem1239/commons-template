@@ -1,16 +1,55 @@
 .hero-section {
-  background: url(../../assets/img/hero-bg-02.png) no-repeat;
+  background: url(/commons-template/assets/img/hero-bg-02.png) no-repeat;
   background-size: cover;
 
   &__content{
-    &-wrap {}
-    &-title{}
-    &-subtitle{}
-    &-description{}
+    &-wrap {
+      
+    }
+    &-title{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 30px;
+    }
+    &-subtitle{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 56px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 72px;
+    }
+    &-description{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      line-height: 24px;
+    }
   }
 
   &__btn{
-
+    &-first{
+      background-color: #fff;
+      color: #0F1A43;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 50px;
+    }
+    &-second{
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 50px;
+    }
   }
 }
 

@@ -1,99 +1,40 @@
-.welcome-section {
-  display: flex;
+.welcome-section{
   background-color: #001844;
-  color: #fff;
-  padding-left: 13.75rem;
-  padding-right: 13.75rem;
-
-  &__vl {
-    flex-grow: 1;
-    background-color: #fff;
-    opacity: 0.23;
-    height: 100px;
-  }
-
-  &__items {
-    padding-left: 1.875rem;
-    padding-right: 2.75rem;
-    padding-top: 5.2rem;
-    padding-bottom: 4.713rem;
-    border-left: 1px solid #ffffff3a;
-    @media (max-width: 575.98px) {
-      padding-left: 0;
-      padding-right: 0;
-      padding-top: 2.813rem;
-      padding-bottom: 1.875rem;
-      border-left: none;
+  &__content{
+    &-wrap{
+      margin-top: 6.313rem;
+      margin-bottom: 6.313rem;
+      &-border{
+        border-left: 1px solid #FFFFFF;
+      }
     }
-
-    &-sub {
-      height: 96px;
-      overflow-y: hidden;
-      margin-bottom: 30px;
+    &-title{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 36px;
+      margin-bottom: 20px;
     }
-  }
-
-  &__title {
-    font-size: 19px;
-    margin: 0;
-    color: #fff;
-    font-weight: 400;
-    @media (max-width: 575.98px) {
-    font-size: 20px;
-    font-weight:600;
-    }
-  }
-
-  &__text {
-    font-size: 14px;
-    color: #e7ecf0;
-    font-weight: lighter;
-    line-height: 20px;
-    margin: 20px 0;
-    letter-spacing: 0.5px;
-    @media (max-width: 575.98px) {
+    &-description{
+      color: #E7ECF0;
+      font-family: "Open Sans";
       font-size: 16px;
-      }
-  }
-
-  &__button {
-    display: flex;
-    gap: 15px;
-    @extend .learn-button-outlined;
-    @media (max-width: 575.98px) {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding: 17px 0px;
-      }
-  }
-  // .bi-arrow-right{
-  //   width: 30px;
-  //   height: 30px;
-  // }
-
-  @media (max-width: 1199.98px) {
-    padding-left: 5.75rem;
-    padding-right: 5.75rem;
-  }
-
-  @media (max-width: 991.98px) {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-
-    &__vl {
-      height: 1px;
-      width: 100%;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      letter-spacing: 0;
+      line-height: 24px;
     }
+
   }
-  @media (max-width: 575.98px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  &__btn{
+    &-first{
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 30px;
+      border-radius: 50px;
+    }
   }
 }
-
