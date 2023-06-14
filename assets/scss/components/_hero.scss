@@ -1,6 +1,21 @@
-.hero {
+.hero-section {
   background: url(../../assets/img/hero-bg-02.png) no-repeat;
   background-size: cover;
+
+  &__content{
+    &-wrap {}
+    &-title{}
+    &-subtitle{}
+    &-description{}
+  }
+
+  &__btn{
+
+  }
+}
+
+.hero {
+
   padding-left: 13.75rem;
   padding-right: 13.75rem;
   height: 668px;
