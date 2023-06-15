@@ -1,53 +1,47 @@
-.banner-container{
-    margin-left: 13.75rem;
-    margin-right: 13.75rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    background: url(/assets/img/banner-01.png) no-repeat;
-    background-size: cover;
-    height: 400px;
-    color: #fff;
-    padding: 6rem 3rem;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 1199.98px) {
-        margin-left: 5.75rem;
-        margin-right: 5.75rem;
-      }
-      @media (max-width: 575.98px) {
-        text-align: center;
-        padding: 2rem 1rem;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1.875rem;
-        background-size: cover;
-      }
-    h1{
-        font-weight: bold;
-        @media (max-width: 575.98px) {
-            font-size: 28px;
-            padding-bottom: 2rem;
-          }
+.banner-section{
+  background: url(/commons-template/assets/img/banner-01.png) no-repeat;
+  background-size: cover;
+  border-radius: 3.75rem;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+
+  &__content{
+    &-wrap{
+      margin-top: 6.375rem;
+      margin-bottom: 6.375rem;
+      margin-right: 14rem;
+      margin-left: 14rem;
+      text-align: center;
     }
-    p{
-        width: 50%;
-        @media (max-width: 575.98px) {
-            width: 100%;
-            font-size: 18px;
-            padding-bottom: 2rem;
-          }
+    &-title{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 56px;
+      letter-spacing: 0;
+      line-height: 76px;
     }
-    button{
-        background: #fff;
-        border: none;
-        font-size: 14px;
-        font-weight: bold;
-        padding: 12px 50px;
-        border-radius: 50px;
+    &-span{
+      font-weight: 700;
     }
+    &-description{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+  &__btn{
+    &-first{
+      background-color: #fff;
+      color: #0F1A43;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 50px;
+    }
+  }
 }

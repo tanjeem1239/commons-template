@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7.09014388px" height="12px" viewBox="0 0 7.09014388 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4177808F-7BCC-4A08-A57A-B14FFBEFD4BD</title>
+    <defs>
+        <path d="M0.674568345,0.705 L0.660777653,0.719412829 C0.29110772,1.1057596 0.290776108,1.71455735 0.660024936,2.10130661 L4.38230216,6 L4.38230216,6 L0.660024936,9.89869339 C0.290776108,10.2854426 0.29110772,10.8942404 0.660777653,11.2805872 L0.674568345,11.295 C1.0310407,11.6675538 1.62203317,11.6805904 1.99458698,11.3241181 C2.00450589,11.3146273 2.01421427,11.3049189 2.02370504,11.295 L7.09014388,6 L7.09014388,6 L2.02370504,0.705 C1.66723269,0.33244619 1.07624021,0.319409592 0.703686403,0.675881942 C0.693767487,0.685372704 0.684059107,0.695081084 0.674568345,0.705 Z" id="path-1"></path>
+    </defs>
+    <g id="Version_01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1.1.Common_Template_VD_v2" transform="translate(-801, -6315)">
+            <g id="Group-23" transform="translate(0, 6001)">
+                <g id="Left" transform="translate(300, 282)">
+                    <g id="icon-copy" transform="translate(501, 32)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#0F1A43" xlink:href="#path-1"></use>
+                        <g id="↪🎨" mask="url(#mask-2)" fill="#FFFFFF">
+                            <g transform="translate(-7.6547, -6)" id="Atoms-/-Colors-/-Black">
+                                <rect x="0" y="0" width="22.9640288" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

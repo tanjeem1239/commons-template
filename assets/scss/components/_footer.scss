@@ -1,117 +1,76 @@
-.bs-footer {
-    font-size: 15px;
-    line-height: 24px;
-    background-color:#001844;
-    padding-left: 13.75rem;
-    padding-right: 13.75rem;
-    @media (max-width: 1199.98px) {
-      padding-left: 5.75rem;
-      padding-right: 5.75rem;
+.footer-section{
+  background-color: #001844;
+  &__main{
+    &-wrap{
+      margin-top: 3.625rem;
+      margin-bottom: 2.563rem;
     }
-    @media (max-width: 991.98px) {
-      display: flex;
-      flex-direction: column;
+    &-content{}
+    &-title{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 24px;
     }
-    @media (max-width: 575.98px) {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-    color: #fff;
-    &__main-row {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      padding-right: 11.5rem;
-      @media (max-width: 575.98px) {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        padding-right: 0rem;
-      }
-      h6 {
-        font-size: 14px;
-        margin-top: 5px;
-        margin-bottom: 30px;
-        font-weight: 600;
-        letter-spacing: 1px;
-      }
-      p{
-        font-size: 14px;
-        font-weight: lighter;
-      }
-    }
-  
-    &__links {
-      display: flex;
-      flex-direction: column;
-      padding-left: 0;
-      gap: 15px;
-      list-style: none;
-      text-decoration: none;
-      li {
-        font-size: 12px;
-        background-color: transparent;
-        color: #fff;
-        border: none;
-        text-decoration: none;
-        padding: 0px;
-      }
-    }
-    .bs-separator__line {
-      border-top: 1px solid rgb(159, 159, 159);
-    }
-    &__bottom-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-top: 1px solid rgba(159, 159, 159, 0.346);
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      @media (max-width: 575.98px) {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-      }
-      &-links {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        list-style: none;
-        @media (max-width: 575.98px) {
-          display: flex;
-          flex-direction: column;
-          align-items: start;
-        }
-        a {
-          text-decoration: none;
-          color: #fff;
-        }
-      }
-    }
-    ul{
-      @media (max-width: 575.98px) {
-        padding-left: 0px;;
-      }
-    }
-    &__social-icons {
-
-      li {
-        display: inline-block;
-        list-style: none;
-        margin-left: 20px;
-        @media (max-width: 575.98px) {
-          margin-left: 0px;
-          padding: 0px;
-        }
-      }
-      a {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        margin-left: 6px;
-        margin-right: 0;
-      }
+    &-description{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 24px;
     }
   }
+  &__main{
+    &-link{
+      margin-top: 3.625rem;
+      margin-bottom: 2.563rem;
+    }
+      &-link-title{
+        color: #FFFFFF;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 16px;
+      }
+      &-link-subtitle{
+        color: #FFFFFF;
+        font-family: "Open Sans";
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 32px;
+      }
+    }
+
+  &__bottom{
+    border-top: 1px solid #FFFFFF;
+    opacity: 1.15;
+    &-wrap{
+      margin-top: 1.938rem;
+    }
+    &-wrap-links{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: 20px;
+    }
+    &-wrap-links span{
+      margin-right: 0.625rem;
+    }
+    &-wrap-links a{
+      margin-right: 0.625rem;
+    }
+    &-wrap-social-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      margin-top: 1.938rem;
+    }
+    &-wrap-social-links img{
+      margin-right: 1.4rem;
+    }
+  }
+}
