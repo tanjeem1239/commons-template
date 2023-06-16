@@ -11,9 +11,13 @@
         padding-right: 1rem;
       }
        .accordion-head{
-        font-size: 3rem;
-        font-weight: 500;
-        letter-spacing: 1px;
+        color: #0F1A43;
+        font-family: "Open Sans";
+        font-size: 56px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 76px;
+        text-align: center;
         @media (max-width: 575.98px) {
           font-size: 1.7rem;
           font-weight: 600;
@@ -26,11 +30,12 @@
         .accordion-header {
           margin: 0;
           .accordion-button {
-            font-size: rem(18px);
-            line-height: 24px;
+            color: #0F1A43;
+            font-family: "Open Sans";
+            font-size: 18px;
             font-weight: bold;
-            cursor: pointer;
-            height: 4.5rem;
+            letter-spacing: 0;
+            line-height: 24px;
             @media (max-width: 575.98px) {
               font-size: 14px;
               font-weight: bold;
