@@ -8,14 +8,17 @@ nav {
   list-style: none;
   padding: 20px 80px;
   }
-  @media (max-width: 991.98px) {
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 768.98px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+
+.header-logo {
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
 
 .header-info {
   display: flex;
@@ -30,6 +33,7 @@ nav {
   font-weight: bold;
   padding: 8px 25px;
   border-radius: 20px;
+
 }
 .header-menu{
   display: flex;
