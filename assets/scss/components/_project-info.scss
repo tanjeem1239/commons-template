@@ -1,11 +1,47 @@
 .project-info {
   background: #0F1A43;
+
+  @include media-breakpoint-down(xl) {
+    background-position: center;
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+  }
+
+  @include media-breakpoint-down(lg) {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+  @include media-breakpoint-down(sm) {
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0;
+  }
+
   &__details{
     border-bottom: 1px solid #ffffff36;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1.25rem;
+
+    @include media-breakpoint-down(sm) {
+      height: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      border: none;
+      }
   }
   &__number{
     color: #FFFFFF;
@@ -17,6 +53,13 @@
     margin-top: 6.25rem;
     margin-bottom: 6.25rem;
     margin-right: 1.25rem;
+
+    @media (max-width: 767px) {
+        font-size: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        padding: 0;
+      }
   }
   &__text{
     color: #FFFFFF;
@@ -24,5 +67,15 @@
     font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
+    @media (max-width: 767px) {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 300;
+        line-height: 1.5;
+        padding: 0;
+      }
   }
+  @media (max-width: 767px) {
+      width: 100%;
+    }
 }

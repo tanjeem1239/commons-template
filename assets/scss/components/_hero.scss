@@ -2,67 +2,6 @@
   background: url(/commons-template/assets/img/hero-bg-02.png) no-repeat;
   background-size: cover;
 
-  &__content{
-    &-wrap {
-      
-    }
-    &-title{
-      color: #FFFFFF;
-      font-family: "Open Sans";
-      font-size: 26px;
-      font-weight: bold;
-      letter-spacing: 0;
-      line-height: 30px;
-      margin-bottom: 1.25rem;
-    }
-    &-subtitle{
-      color: #FFFFFF;
-      font-family: "Open Sans";
-      font-size: 56px;
-      font-weight: 300;
-      letter-spacing: 0;
-      line-height: 72px;
-    }
-    &-description{
-      color: #FFFFFF;
-      font-family: "Open Sans";
-      font-size: 16px;
-      letter-spacing: 0.5px;
-      line-height: 24px;
-      margin-top: 1.25rem;
-      margin-bottom: 1.875rem;
-    }
-  }
-
-  &__btn{
-    &-first{
-      background-color: #fff;
-      color: #0F1A43;
-      border: none;
-      font-size: 14px;
-      font-weight: bold;
-      padding: 12px 45px;
-      border-radius: 50px;
-      margin-right: 1.875rem;
-    }
-    &-second{
-      background-color: transparent;
-      color: #fff;
-      border: 1px solid #fff;
-      font-size: 14px;
-      font-weight: bold;
-      padding: 12px 45px;
-      border-radius: 50px;
-    }
-  }
-}
-
-.hero {
-
-  padding-left: 13.75rem;
-  padding-right: 13.75rem;
-  height: 668px;
-
   @include media-breakpoint-down(xl) {
     background-position: center;
     padding-left: 5.75rem;
@@ -82,134 +21,107 @@
     padding-right: 1rem;
   }
 
-  .hero-content__wrapper {
-    @include media-breakpoint-down(sm) {
-      margin-top: 30px;
-    }
-  }
-
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    padding-top: 5.25rem;
-
+  &__content{
     @include media-breakpoint-down(lg)  {
       padding-top: 1.25rem;
       height: 50vh;
     }
-  }
-
-  .hero-content__title {
-    margin: 0;
-  }
-
-  .hero-content__subtitle {
-    font-weight: lighter;
-    font-size: 45px;
-    color: white;
-    margin: 0;
-    padding: 20px 0;
-
-    @include media-breakpoint-down(xl) {
-      font-size: 35px;
+    &-wrap {
+      @include media-breakpoint-down(sm) {
+        margin-top: 30px;
+      }
     }
-
-    @include media-breakpoint-down(lg) {
-      font-size: 25px;
-    }
-    @include media-breakpoint-down(sm) {
-      font-size: 35px;
-      font-weight: 100;
-      line-height: 40px;
-    }
-  }
-
-  .hero-content__description {
-    font-weight: lighter;
-    font-size: 14px;
-    color: white;
-    @include media-breakpoint-down(sm) {
-      font-size: 16px;
-      font-weight: 100;
+    &-title{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 0;
       line-height: 30px;
+      margin-bottom: 1.25rem;
+    }
+    &-subtitle{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 56px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 72px;
+
+      @include media-breakpoint-down(xl) {
+        font-size: 35px;
+      }
+  
+      @include media-breakpoint-down(lg) {
+        font-size: 25px;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 40px;
+      }
+    }
+    &-description{
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      line-height: 24px;
+      margin-top: 1.25rem;
+      margin-bottom: 1.875rem;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 30px;
+      }
     }
   }
 
-  .hero-image__wrapper {
-    @include media-breakpoint-down(sm) {
-      height: 50vh;
-    }
-  }
+  &__btn{
 
-
-  .hero-image {
-    background-image: url(../../assets/img/hero-right.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    background-position: bottom;
-    padding-top: 50px;
-
-    @include media-breakpoint-down(xl) {
-      background-position: top;
-    }
-
-    @include media-breakpoint-down(lg) {
-      padding-top: 0;
-      background-size: contain;
-      background-position: top;
-    }
-
-    @include media-breakpoint-down(sm) {
-      // margin-top: 30px;
-    }
-  }
-
-  .hero-button {
-    display: flex;
-    padding-top: 30px;
     @include media-breakpoint-down(sm) {
       flex-direction: column;
     }
-  }
+    &-first{
+      background-color: #fff;
+      color: #0F1A43;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 50px;
+      margin-right: 1.875rem;
 
-  .hero-button-first {
-    background: #fff;
-    border: none;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 17px 45px;
-    border-radius: 50px;
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+        border-radius: 8px;
+        padding: 16px 45px;
+        font-weight: 700;
+        font-size: 20px;
+      }
+    }
+    &-second{
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 50px;
 
-    @include media-breakpoint-down(sm) {
-      width: 100%;
+      @include media-breakpoint-down(sm) {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        padding: 16px 45px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+      }
     }
   }
-
-  .hero-button-second {
-    display: flex;
-    gap: 10px;
-    background: transparent;
-    color: white;
-    border: 1px solid #fff;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 17px 45px;
-    border-radius: 50px;
-    margin-left: 20px;
-
-    @include media-breakpoint-down(sm) {
-      margin-top: 1rem;
-      margin-left: 0;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-}
-.react-icon {
-  font-size: 24px;
-  color: rgb(255, 254, 254);
 }

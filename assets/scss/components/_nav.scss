@@ -13,9 +13,9 @@ nav {
   }
   @media (max-width: 991.98px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
-  @media (max-width: 768.98px) {
+  @media (max-width: 575.98px) {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -25,23 +25,19 @@ nav {
   letter-spacing: 5px;
   font-size: 18px;
   margin-left: 10px;
+
   @media (max-width: 991.98px) {
-    display: flex;
-    flex-direction: column;
+    width: 60vw;
   }
-  @media (max-width: 768.98px) {
+
+  @media (max-width: 575.98px) {
+    width: 40vw;
     
   }
 }
 .header-left {
   display: flex;
   align-items: center;
-  @media (max-width: 991.98px) {
-    
-  }
-  @media (max-width: 768.98px) {
-    
-  }
 }
 .nav-items {
   list-style: none;
@@ -51,12 +47,13 @@ nav {
   gap: 30px;
   padding-left: 110px;
   @media (max-width: 991.98px) {
-
     display: flex;
     flex-direction: column;
     padding-left: 50px;
   }
 }
+
+
 .header-info {
   display: flex;
   align-items: center;

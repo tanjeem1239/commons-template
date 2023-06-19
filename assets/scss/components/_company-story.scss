@@ -1,7 +1,39 @@
 .company-story{
   background: #0F1A43;
+
+  @media (max-width: 1199.98px) {
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+  }
+
+  @media (max-width: 991.98px) {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#001844 80%, #ffffff 50%);
+  }
+
+  @media (max-width: 575.98px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
   &__details{
     margin-top: 5.125rem;
+
+    @media (max-width: 991.98px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 2rem;
+    }
+    @media (max-width: 575.98px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin-top: 2rem;
+    }
+
     &-main{
       color: #FFFFFF;
       font-family: "Open Sans";
@@ -10,6 +42,22 @@
       letter-spacing: 0;
       line-height: 72px;
       margin-bottom: 5.75rem;
+
+      @media (max-width: 991.98px) {
+        
+        line-height: 1;
+        width: 100%;
+        font-size: 5px;
+        text-align: center;
+      }
+      @media (max-width: 575.98px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 1.5rem;
+        width: 100%;
+      }
     }
     &-sub{
       color: #FFFFFF;
@@ -19,11 +67,26 @@
       line-height: 24px;
       padding: 39px 0 40px 30px;
       margin-bottom: 5.75rem;
+
+      @media (max-width: 991.98px) {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
       
     }
   }
   &__img{
     height: 50vh;
+
+    @media (max-width: 575.98px) {
+      height: 90%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
     
   }
 }
