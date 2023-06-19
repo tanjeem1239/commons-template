@@ -15,7 +15,7 @@ nav {
     display: flex;
     flex-direction: column;
   }
-  @media (max-width: 575.98px) {
+  @media (max-width: 768.98px) {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -25,10 +25,23 @@ nav {
   letter-spacing: 5px;
   font-size: 18px;
   margin-left: 10px;
+  @media (max-width: 991.98px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 768.98px) {
+    
+  }
 }
 .header-left {
   display: flex;
   align-items: center;
+  @media (max-width: 991.98px) {
+    
+  }
+  @media (max-width: 768.98px) {
+    
+  }
 }
 .nav-items {
   list-style: none;
@@ -47,6 +60,7 @@ nav {
 .header-info {
   display: flex;
   align-items: center;
+
 }
 .header-info button {
   background: transparent;
