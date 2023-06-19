@@ -1,12 +1,37 @@
 .project-info {
   background: #0F1A43;
 
+  @include media-breakpoint-down(lg) {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
   &__details{
     border-bottom: 1px solid #ffffff36;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1.25rem;
+
+    @include media-breakpoint-down(lg) {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 3rem;
+    }
+    @include media-breakpoint-down(sm) {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
 
   }
   &__number{
@@ -20,6 +45,20 @@
     margin-bottom: 6.25rem;
     margin-right: 1.25rem;
 
+    @include media-breakpoint-down(lg) {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      padding: 0;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
   }
   &__text{
     color: #FFFFFF;
@@ -28,8 +67,13 @@
     letter-spacing: 0;
     line-height: 24px;
 
-  }
-  @media (max-width: 767px) {
-      width: 100%;
+    @include media-breakpoint-down(lg) {
+      font-size: 1rem;
+      text-align: center;
     }
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  }
 }

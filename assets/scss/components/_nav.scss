@@ -8,12 +8,6 @@ nav {
   list-style: none;
   padding: 20px 80px;
 
-  @include media-breakpoint-down(xl) {
-    background-position: center;
-    padding-left: 5.75rem;
-    padding-right: 5.75rem;
-  }
-
   @include media-breakpoint-down(lg) {
     display: flex;
     flex-direction: row;
