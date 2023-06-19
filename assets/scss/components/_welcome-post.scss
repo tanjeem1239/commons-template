@@ -1,40 +1,11 @@
 .welcome-section{
   background-color: #001844;
 
-  @include media-breakpoint-down(xl) {
-    background-position: center;
-    padding-left: 5.75rem;
-    padding-right: 5.75rem;
-  }
-
-  @include media-breakpoint-down(lg) {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-  }
-  @include media-breakpoint-down(sm) {
-    height: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   &__content{
 
     &-wrap{
       margin-top: 6.313rem;
       margin-bottom: 6.313rem;
-
-      @media (max-width: 575.98px) {
-        padding-bottom: 30px;
-        border-bottom: 1px solid #ffffff36;
-      }
-      @include media-breakpoint-down(sm) {
-        margin-top: 3rem;
-        margin-bottom: 0;
-        
-      }
       &-border{
         padding-left: 1.875rem; 
         border-left: 1px solid #ffffff36;
@@ -56,10 +27,6 @@
       line-height: 36px;
       margin-bottom: 1.25rem;
 
-      @media (max-width: 575.98px) {
-        font-size: 2rem;
-        font-weight:600;
-        }
     }
     &-description{
       color: #E7ECF0;

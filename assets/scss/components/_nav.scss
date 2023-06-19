@@ -7,9 +7,6 @@ nav {
   background-color: #0f1a43;
   list-style: none;
   padding: 20px 80px;
-  @media (max-width: 1199.98px) {
-    padding-left: 5.75rem;
-    padding-right: 5.75rem;
   }
   @media (max-width: 991.98px) {
     display: flex;
@@ -20,43 +17,6 @@ nav {
     padding-right: 1rem;
   }
 
-.header-logo {
-  font-weight: 500;
-  letter-spacing: 5px;
-  font-size: 18px;
-  margin-left: 10px;
-  @media (max-width: 991.98px) {
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 768.98px) {
-    
-  }
-}
-.header-left {
-  display: flex;
-  align-items: center;
-  @media (max-width: 991.98px) {
-    
-  }
-  @media (max-width: 768.98px) {
-    
-  }
-}
-.nav-items {
-  list-style: none;
-  display: flex;
-  font-size: 12px;
-  font-weight: lighter;
-  gap: 30px;
-  padding-left: 110px;
-  @media (max-width: 991.98px) {
-
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-  }
-}
 .header-info {
   display: flex;
   align-items: center;
@@ -76,8 +36,6 @@ nav {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border: 1px solid #394673;
-  border-radius: 50px;
   width: 40px;
   height: 40px;
 }
@@ -85,9 +43,6 @@ nav {
 background-color: #f7f7f71a;
 }
 
-.modal{
-  // left: 0 !important;
-}
 .modal-header {
   border: none !important;
 }
@@ -151,5 +106,4 @@ background-color: #f7f7f71a;
 .nav-menu-sub-items{
   padding-left: 20px;
   font-weight: 500;
-}
 }
