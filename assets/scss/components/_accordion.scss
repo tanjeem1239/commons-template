@@ -1,15 +1,18 @@
 .bs-accordion {
+
+  @include media-breakpoint-down(lg) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
     .accordion {
        padding-top: 5rem;
        padding-bottom: 5rem;
-       @media (max-width: 1199.98px) {
-        padding-left: 5.75rem;
-        padding-right: 5.75rem;
-      }
-      @media (max-width: 575.98px) {
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
        .accordion-head{
         color: #0F1A43;
         font-family: "Open Sans";
@@ -18,15 +21,23 @@
         letter-spacing: 0;
         line-height: 76px;
         text-align: center;
-        @media (max-width: 575.98px) {
+        @include media-breakpoint-down(sm) {
           font-size: 1.7rem;
-          font-weight: 600;
-          letter-spacing: 1px;
+          font-weight: bold;
           text-align: center;
         }
        }
       .accordion-item{
         border-bottom: 3px solid #e7e7e7;
+        @include media-breakpoint-down(lg) {
+          padding: 0;
+          margin: 0;
+        }
+        @include media-breakpoint-down(sm) {
+          padding: 0;
+          margin: 0;
+        }
+
         .accordion-header {
           margin: 0;
           .accordion-button {

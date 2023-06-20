@@ -1,10 +1,21 @@
 .tab-section{
   background-color: #001844;
 
+  @include media-breakpoint-down(lg) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 1rem;
+    padding-right: 0.25rem;
+  }
+
   &__content{
     &-wrap{
       margin-top: 6.25rem;
       margin-bottom: 3.375rem;
+
     }
     &-title{
       color: #FFFFFF;
@@ -86,6 +97,14 @@
     text-align: center;
     background-color: #001844;
     margin-right: 1.875rem;
+    @include media-breakpoint-down(lg) {
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      border-radius: 8px;
+    }
 }
   .btn-2 {
   padding: 10px 35px;
@@ -97,6 +116,16 @@
   text-decoration: none;
   text-align: center;
   background-color: #001844;
+
+  @include media-breakpoint-down(lg) {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+  @include media-breakpoint-down(sm) {
+    border-radius: 8px;
+    
+  }
     }
   }
 }

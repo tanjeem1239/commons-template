@@ -1,5 +1,7 @@
 .welcome-section{
   background-color: #001844;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
   @include media-breakpoint-down(lg) {
     display: flex;

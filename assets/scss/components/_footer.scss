@@ -1,5 +1,18 @@
 .footer-section{
   background-color: #001844;
+
+  @include media-breakpoint-down(lg) {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  
   &__main{
     &-wrap{
       margin-top: 3.625rem;
@@ -68,6 +81,14 @@
       flex-direction: row;
       justify-content: end;
       margin-top: 1.938rem;
+      @include media-breakpoint-down(lg) {
+        margin: 0;
+      }
+    }
+    ul{
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 1rem;
+      }
     }
     &-wrap-social-links img{
       margin-right: 1.4rem;

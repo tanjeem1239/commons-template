@@ -1,7 +1,16 @@
 .banner-section{
   margin-top: 6.25rem;
   margin-bottom: 6.25rem;
-  
+
+  @include media-breakpoint-down(lg) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 1rem;
+    padding-right: 0.25rem;
+  }
 
   &__content{
     &-wrap{
@@ -10,6 +19,18 @@
       border-radius: 3.75rem;
       padding: 6.375rem 14rem;
       text-align: center;
+
+      @include media-breakpoint-down(lg) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border-radius: 0px;
+        
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 1rem;
+        margin: 0;
+      }
+      
     }
     &-title{
       color: #FFFFFF;
@@ -19,8 +40,9 @@
       line-height: 76px;
       margin-bottom: 1.25rem;
 
-      @media (max-width: 767px) {
+      @include media-breakpoint-down(sm) {
           font-size: 24px;
+          line-height: 1.5;
         }
     }
     &-span{
@@ -36,7 +58,7 @@
       text-align: center;
       margin-bottom: 1.875rem;
 
-      @media (max-width: 767px) {
+      @include media-breakpoint-down(sm) {
           font-size: 14px;
         }
       }
@@ -52,6 +74,10 @@
       font-weight: bold;
       padding: 12px 45px;
       border-radius: 50px;
+      @include media-breakpoint-down(sm) {
+        border-radius: 8px;
+        display: flex;
+      }
     }
   } 
  }

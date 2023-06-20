@@ -1,10 +1,34 @@
 .company-story{
   background: #0F1A43;
 
+  @include media-breakpoint-down(lg) {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
   
   &__details{
     margin-top: 5.125rem;
-
+    @include media-breakpoint-down(lg) {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    @include media-breakpoint-down(sm) {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
     &-main{
       color: #FFFFFF;
@@ -14,7 +38,15 @@
       letter-spacing: 0;
       line-height: 72px;
       margin-bottom: 5.75rem;
-
+      @include media-breakpoint-down(lg) {
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 1rem; 
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 0;
+        text-align: center;
+      }
     }
     &-sub{
       color: #FFFFFF;
@@ -24,9 +56,28 @@
       line-height: 24px;
       padding: 39px 0 40px 30px;
       margin-bottom: 5.75rem;
+      @include media-breakpoint-down(lg) {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem; 
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 0;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
     }
   }
   &__img{
     height: 50vh;
+    @include media-breakpoint-down(lg) {
+      height: 15vh;
+    }
+    @include media-breakpoint-down(sm) {
+      height: 10vh;
+    }
   }
 }
