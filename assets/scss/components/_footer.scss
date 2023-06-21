@@ -36,9 +36,11 @@
     }
   }
   &__main{
+    
     &-link{
       margin-top: 3.625rem;
       margin-bottom: 2.563rem;
+      
     }
       &-link-title{
         color: #FFFFFF;
@@ -54,6 +56,13 @@
         font-size: 16px;
         letter-spacing: 0;
         line-height: 32px;
+        a{
+          text-decoration: none;
+          color: #FFFFFF;
+          &:hover{
+            color: #2366e3;
+          }
+        }
       }
     }
 
