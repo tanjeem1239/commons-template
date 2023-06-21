@@ -14,9 +14,6 @@
     background-size: cover;
   }
   &__wrapper{
-    @media (max-width: 575.98px) {
-      display: flex;
-      flex-direction: column;
     }
   }
 
@@ -37,9 +34,6 @@
       font-weight: 600;
       letter-spacing: 0;
       line-height: 72px;
-      @media (max-width: 575.98px) {
-        font-size: 28px;
-        line-height:38px;
       }
     }
     .press-release__description  {
