@@ -71,6 +71,7 @@
       font-weight: bold;
       padding: 12px 30px;
       border-radius: 50px;
+      
       @include media-breakpoint-down(lg) {
         display: flex;
         align-items: center;
@@ -96,6 +97,9 @@
         font-weight: 700;
         border-radius: 8px;
         margin-bottom: 2rem;
+      }
+      img{
+        margin-left: 0.5rem;
       }
     }
   }

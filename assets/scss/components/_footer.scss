@@ -60,7 +60,7 @@
           text-decoration: none;
           color: #FFFFFF;
           &:hover{
-            color: #2366e3;
+            text-decoration: underline;
           }
         }
       }
@@ -84,6 +84,11 @@
     }
     &-wrap-links a{
       margin-right: 0.625rem;
+      text-decoration: none;
+      color: #FFFFFF;
+      &:hover{
+        text-decoration: ;
+      }
     }
     &-wrap-social-links{
       display: flex;

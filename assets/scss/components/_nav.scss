@@ -116,10 +116,16 @@ nav {
     margin: 0rem;
     padding: 0rem;
     width: 100%;
+    img{
+      margin-left: 2rem;
+      float: right;
+      margin-top: 1rem;
+      margin-right: 1.5rem;
+    }
   }
   
   .nav-menu-items li:hover {
-    font-weight: normal;
+    font-weight: 500;
     border-right:3px solid #0f1a43;
   }
   
