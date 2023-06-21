@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
         spaceBetween: 50,
       },
       },
-      });
+  });
 
 
