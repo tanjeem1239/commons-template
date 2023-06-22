@@ -125,7 +125,7 @@ nav {
   }
   
   .nav-menu-items li:hover {
-    border-right:3px solid #0f1a43;
+     border-right:3px solid #0f1a43;
   }
   
   .nav-menu-right{
@@ -136,4 +136,20 @@ nav {
     font-weight: 500;
   }
 
+.nav-menu-items .active {
+  font-weight: 500;
+  color: #0f1a43;
+  border-right: 4px solid #0f1a43 !important;
+}
+
+.nav-menu-sub-items.active {
+  display: block;
+  .accordion{
+    background: transparent !important;
   }
+}
+
+.nav-menu-sub-items {
+  display: none;
+}
+}
